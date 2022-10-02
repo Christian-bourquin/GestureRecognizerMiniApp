@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA09CF7828E9544800FAB635 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA09CF7728E9544800FAB635 /* AppDelegate.swift */; };
+		DA09CF7A28E9544800FAB635 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA09CF7928E9544800FAB635 /* SceneDelegate.swift */; };
+		DA09CF7C28E9544800FAB635 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA09CF7B28E9544800FAB635 /* ViewController.swift */; };
+		DA09CF7F28E9544800FAB635 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA09CF7D28E9544800FAB635 /* Main.storyboard */; };
+		DA09CF8128E9544900FAB635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA09CF8028E9544900FAB635 /* Assets.xcassets */; };
+		DA09CF8428E9544900FAB635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA09CF8228E9544900FAB635 /* LaunchScreen.storyboard */; };
+		DA09CF8F28E9544900FAB635 /* GestureRecognizerMiniAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA09CF8E28E9544900FAB635 /* GestureRecognizerMiniAppTests.swift */; };
+		DA09CF9928E9544900FAB635 /* GestureRecognizerMiniAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA09CF9828E9544900FAB635 /* GestureRecognizerMiniAppUITests.swift */; };
+		DA09CF9B28E9544900FAB635 /* GestureRecognizerMiniAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA09CF9A28E9544900FAB635 /* GestureRecognizerMiniAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA09CF8B28E9544900FAB635 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA09CF6C28E9544800FAB635 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA09CF7328E9544800FAB635;
+			remoteInfo = GestureRecognizerMiniApp;
+		};
+		DA09CF9528E9544900FAB635 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA09CF6C28E9544800FAB635 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA09CF7328E9544800FAB635;
+			remoteInfo = GestureRecognizerMiniApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA09CF7428E9544800FAB635 /* GestureRecognizerMiniApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureRecognizerMiniApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA09CF7728E9544800FAB635 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA09CF7928E9544800FAB635 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DA09CF7B28E9544800FAB635 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA09CF7E28E9544800FAB635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA09CF8028E9544900FAB635 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA09CF8328E9544900FAB635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA09CF8528E9544900FAB635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA09CF8A28E9544900FAB635 /* GestureRecognizerMiniAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureRecognizerMiniAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA09CF8E28E9544900FAB635 /* GestureRecognizerMiniAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureRecognizerMiniAppTests.swift; sourceTree = "<group>"; };
+		DA09CF9428E9544900FAB635 /* GestureRecognizerMiniAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureRecognizerMiniAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA09CF9828E9544900FAB635 /* GestureRecognizerMiniAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureRecognizerMiniAppUITests.swift; sourceTree = "<group>"; };
+		DA09CF9A28E9544900FAB635 /* GestureRecognizerMiniAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureRecognizerMiniAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA09CF7128E9544800FAB635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA09CF8728E9544900FAB635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA09CF9128E9544900FAB635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA09CF6B28E9544800FAB635 = {
+			isa = PBXGroup;
+			children = (
+				DA09CF7628E9544800FAB635 /* GestureRecognizerMiniApp */,
+				DA09CF8D28E9544900FAB635 /* GestureRecognizerMiniAppTests */,
+				DA09CF9728E9544900FAB635 /* GestureRecognizerMiniAppUITests */,
+				DA09CF7528E9544800FAB635 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA09CF7528E9544800FAB635 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA09CF7428E9544800FAB635 /* GestureRecognizerMiniApp.app */,
+				DA09CF8A28E9544900FAB635 /* GestureRecognizerMiniAppTests.xctest */,
+				DA09CF9428E9544900FAB635 /* GestureRecognizerMiniAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA09CF7628E9544800FAB635 /* GestureRecognizerMiniApp */ = {
+			isa = PBXGroup;
+			children = (
+				DA09CF7728E9544800FAB635 /* AppDelegate.swift */,
+				DA09CF7928E9544800FAB635 /* SceneDelegate.swift */,
+				DA09CF7B28E9544800FAB635 /* ViewController.swift */,
+				DA09CF7D28E9544800FAB635 /* Main.storyboard */,
+				DA09CF8028E9544900FAB635 /* Assets.xcassets */,
+				DA09CF8228E9544900FAB635 /* LaunchScreen.storyboard */,
+				DA09CF8528E9544900FAB635 /* Info.plist */,
+			);
+			path = GestureRecognizerMiniApp;
+			sourceTree = "<group>";
+		};
+		DA09CF8D28E9544900FAB635 /* GestureRecognizerMiniAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA09CF8E28E9544900FAB635 /* GestureRecognizerMiniAppTests.swift */,
+			);
+			path = GestureRecognizerMiniAppTests;
+			sourceTree = "<group>";
+		};
+		DA09CF9728E9544900FAB635 /* GestureRecognizerMiniAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA09CF9828E9544900FAB635 /* GestureRecognizerMiniAppUITests.swift */,
+				DA09CF9A28E9544900FAB635 /* GestureRecognizerMiniAppUITestsLaunchTests.swift */,
+			);
+			path = GestureRecognizerMiniAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA09CF7328E9544800FAB635 /* GestureRecognizerMiniApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA09CF9E28E9544900FAB635 /* Build configuration list for PBXNativeTarget "GestureRecognizerMiniApp" */;
+			buildPhases = (
+				DA09CF7028E9544800FAB635 /* Sources */,
+				DA09CF7128E9544800FAB635 /* Frameworks */,
+				DA09CF7228E9544800FAB635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GestureRecognizerMiniApp;
+			productName = GestureRecognizerMiniApp;
+			productReference = DA09CF7428E9544800FAB635 /* GestureRecognizerMiniApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA09CF8928E9544900FAB635 /* GestureRecognizerMiniAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA09CFA128E9544900FAB635 /* Build configuration list for PBXNativeTarget "GestureRecognizerMiniAppTests" */;
+			buildPhases = (
+				DA09CF8628E9544900FAB635 /* Sources */,
+				DA09CF8728E9544900FAB635 /* Frameworks */,
+				DA09CF8828E9544900FAB635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA09CF8C28E9544900FAB635 /* PBXTargetDependency */,
+			);
+			name = GestureRecognizerMiniAppTests;
+			productName = GestureRecognizerMiniAppTests;
+			productReference = DA09CF8A28E9544900FAB635 /* GestureRecognizerMiniAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA09CF9328E9544900FAB635 /* GestureRecognizerMiniAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA09CFA428E9544900FAB635 /* Build configuration list for PBXNativeTarget "GestureRecognizerMiniAppUITests" */;
+			buildPhases = (
+				DA09CF9028E9544900FAB635 /* Sources */,
+				DA09CF9128E9544900FAB635 /* Frameworks */,
+				DA09CF9228E9544900FAB635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA09CF9628E9544900FAB635 /* PBXTargetDependency */,
+			);
+			name = GestureRecognizerMiniAppUITests;
+			productName = GestureRecognizerMiniAppUITests;
+			productReference = DA09CF9428E9544900FAB635 /* GestureRecognizerMiniAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA09CF6C28E9544800FAB635 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					DA09CF7328E9544800FAB635 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					DA09CF8928E9544900FAB635 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DA09CF7328E9544800FAB635;
+					};
+					DA09CF9328E9544900FAB635 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DA09CF7328E9544800FAB635;
+					};
+				};
+			};
+			buildConfigurationList = DA09CF6F28E9544800FAB635 /* Build configuration list for PBXProject "GestureRecognizerMiniApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA09CF6B28E9544800FAB635;
+			productRefGroup = DA09CF7528E9544800FAB635 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA09CF7328E9544800FAB635 /* GestureRecognizerMiniApp */,
+				DA09CF8928E9544900FAB635 /* GestureRecognizerMiniAppTests */,
+				DA09CF9328E9544900FAB635 /* GestureRecognizerMiniAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA09CF7228E9544800FAB635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA09CF8428E9544900FAB635 /* LaunchScreen.storyboard in Resources */,
+				DA09CF8128E9544900FAB635 /* Assets.xcassets in Resources */,
+				DA09CF7F28E9544800FAB635 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA09CF8828E9544900FAB635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA09CF9228E9544900FAB635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA09CF7028E9544800FAB635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA09CF7C28E9544800FAB635 /* ViewController.swift in Sources */,
+				DA09CF7828E9544800FAB635 /* AppDelegate.swift in Sources */,
+				DA09CF7A28E9544800FAB635 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA09CF8628E9544900FAB635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA09CF8F28E9544900FAB635 /* GestureRecognizerMiniAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA09CF9028E9544900FAB635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA09CF9928E9544900FAB635 /* GestureRecognizerMiniAppUITests.swift in Sources */,
+				DA09CF9B28E9544900FAB635 /* GestureRecognizerMiniAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA09CF8C28E9544900FAB635 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA09CF7328E9544800FAB635 /* GestureRecognizerMiniApp */;
+			targetProxy = DA09CF8B28E9544900FAB635 /* PBXContainerItemProxy */;
+		};
+		DA09CF9628E9544900FAB635 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA09CF7328E9544800FAB635 /* GestureRecognizerMiniApp */;
+			targetProxy = DA09CF9528E9544900FAB635 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA09CF7D28E9544800FAB635 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA09CF7E28E9544800FAB635 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA09CF8228E9544900FAB635 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA09CF8328E9544900FAB635 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA09CF9C28E9544900FAB635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA09CF9D28E9544900FAB635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA09CF9F28E9544900FAB635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHJ6CV5DWU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GestureRecognizerMiniApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.GestureRecognizerMiniApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA09CFA028E9544900FAB635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHJ6CV5DWU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GestureRecognizerMiniApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.GestureRecognizerMiniApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA09CFA228E9544900FAB635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHJ6CV5DWU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.GestureRecognizerMiniAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GestureRecognizerMiniApp.app/GestureRecognizerMiniApp";
+			};
+			name = Debug;
+		};
+		DA09CFA328E9544900FAB635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHJ6CV5DWU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.GestureRecognizerMiniAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GestureRecognizerMiniApp.app/GestureRecognizerMiniApp";
+			};
+			name = Release;
+		};
+		DA09CFA528E9544900FAB635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHJ6CV5DWU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.GestureRecognizerMiniAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GestureRecognizerMiniApp;
+			};
+			name = Debug;
+		};
+		DA09CFA628E9544900FAB635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHJ6CV5DWU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.GestureRecognizerMiniAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GestureRecognizerMiniApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA09CF6F28E9544800FAB635 /* Build configuration list for PBXProject "GestureRecognizerMiniApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA09CF9C28E9544900FAB635 /* Debug */,
+				DA09CF9D28E9544900FAB635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA09CF9E28E9544900FAB635 /* Build configuration list for PBXNativeTarget "GestureRecognizerMiniApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA09CF9F28E9544900FAB635 /* Debug */,
+				DA09CFA028E9544900FAB635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA09CFA128E9544900FAB635 /* Build configuration list for PBXNativeTarget "GestureRecognizerMiniAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA09CFA228E9544900FAB635 /* Debug */,
+				DA09CFA328E9544900FAB635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA09CFA428E9544900FAB635 /* Build configuration list for PBXNativeTarget "GestureRecognizerMiniAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA09CFA528E9544900FAB635 /* Debug */,
+				DA09CFA628E9544900FAB635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA09CF6C28E9544800FAB635 /* Project object */;
+}
